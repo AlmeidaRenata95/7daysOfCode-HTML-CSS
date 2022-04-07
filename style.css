@@ -1,120 +1,43 @@
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  position: static;
-  height: 80px;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0px 0px;
-}
-nav {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  position: static;
-  width: 207px;
-  height: 44px;
-  left: 1041px;
-  top: 0px;
-  background: #ffffff;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  margin: 0px 0px;
+* {
+  margin: auto;
+  padding: 0;
 }
 
-a {
-  justify-content: space-between;
+body {
+  overflow: hidden;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 1398px;
+  height: 80px;
+  background-color: pink;
+  padding: ;
+  display: flex;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  position: static;
 }
 
 .container-header {
-  /* Auto layout */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0px 32px;
-  position: static;
-  width: 1280px;
-  height: 44px;
-  left: 80px;
-  top: 18px;
-}
+  width: 1250px;
+  height: 60%;
 
-.nav-button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-
-  position: static;
-  width: 112px;
-  height: 44px;
-  left: 95px;
-  top: 0px;
-
-  border-radius: 8px;
-}
-
-.content {
-  display: flex;
-
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 18px;
-
-  position: static;
-  margin: 0px;
-
-  border-radius: 8px;
-
-  align-items: center;
-}
-
-.button-entrar {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  padding: 10px 18px;
-
-  position: static;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-
-  background: #8e2424;
-  border: 1px solid #8e2424;
-  box-sizing: border-box;
-  /* Shadow/xs */
-
-  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
-  border-radius: 8px;
+  background-color: blueviolet;
 }
 
-.button-cadastro {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 18px;
+.image-logo {
+  width: 20px;
+  height: auto;
+}
 
-  position: static;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  border-radius: 8px;
+.texto-logo {
+  width: 100px;
+  height: auto;
 }
